@@ -1,8 +1,9 @@
 ITEM.Name = 'Gravity Gun'
-ITEM.Price = 200
+ITEM.Price = 0
 ITEM.Model = 'models/weapons/w_physics.mdl'
 ITEM.WeaponClass = 'weapon_physcannon'
 ITEM.SingleUse = true
+ITEM.AdminOnly = true
 
 function ITEM:OnBuy(ply)
 	ply:Give(self.WeaponClass)
