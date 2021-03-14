@@ -2,24 +2,24 @@ PS.Config = {}
 
 -- Edit below
 
-PS.Config.CommunityName = "My Community"
+PS.Config.CommunityName = "Rumble Party"
 
 PS.Config.DataProvider = 'pdata'
 
 PS.Config.Branch = 'https://raw.github.com/adamdburton/pointshop/master/' -- Master is most stable, used for version checking.
-PS.Config.CheckVersion = true -- Do you want to be notified when a new version of Pointshop is avaliable?
+PS.Config.CheckVersion = false -- Do you want to be notified when a new version of Pointshop is avaliable?
 
-PS.Config.ShopKey = 'F3' -- Any Uppercase key or blank to disable
+PS.Config.ShopKey = 'F4' -- Any Uppercase key or blank to disable
 PS.Config.ShopCommand = 'ps_shop' -- Console command to open the shop, set to blank to disable
 PS.Config.ShopChatCommand = '!shop' -- Chat command to open the shop, set to blank to disable
 
 PS.Config.NotifyOnJoin = true -- Should players be notified about opening the shop when they spawn?
 
 PS.Config.PointsOverTime = true -- Should players be given points over time?
-PS.Config.PointsOverTimeDelay = 1 -- If so, how many minutes apart?
-PS.Config.PointsOverTimeAmount = 10 -- And if so, how many points to give after the time?
+PS.Config.PointsOverTimeDelay = 5 -- If so, how many minutes apart?
+PS.Config.PointsOverTimeAmount = 25 -- And if so, how many points to give after the time?
 
-PS.Config.AdminCanAccessAdminTab = true -- Can Admins access the Admin tab?
+PS.Config.AdminCanAccessAdminTab = false -- Can Admins access the Admin tab?
 PS.Config.SuperAdminCanAccessAdminTab = true -- Can SuperAdmins access the Admin tab?
 
 PS.Config.CanPlayersGivePoints = true -- Can players give points away to other players?
