@@ -3,6 +3,7 @@ ITEM.Price = 200
 ITEM.Model = 'models/weapons/w_rocket_launcher.mdl'
 ITEM.WeaponClass = 'weapon_rpg'
 ITEM.SingleUse = true
+ITEM.AllowedUserGroups = { "vip" }
 
 function ITEM:OnBuy(ply)
     if (!ply:HasWeapon(self.WeaponClass)) then
